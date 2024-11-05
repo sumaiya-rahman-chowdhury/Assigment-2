@@ -1,0 +1,38 @@
+.font-family{
+     font-family: "Poppins", serif;;
+}
+.banner {
+    padding-top: 100px;
+}
+.tagline{
+    font-size: 50px;
+}
+.btn-bg{
+    background-color: #F59E0B
+}
+.btn-text-clr{
+    color:  #F1F5F9 ;
+    /* color: #1E3A8A; */
+}
+.footer-bg{
+    color: #1E3A8A;
+}
+.footer-txt-clr{
+    color: #F1F5F9;
+}
+.about-bg{
+    background: #F1F5F9;
+}
+.about-txt{
+    color: #1E3A8A;
+}
+#carouselExampleAutoplaying {
+    height: 500px; /* Adjust this height to match your content */
+}
+
+
+@media (max-width: 575px) {
+    .banner-content{
+        flex-direction: column;
+    }
+  }
