@@ -3,9 +3,23 @@
 }
 .banner {
     padding-top: 100px;
+    height: auto;
+    background-image: url("https://fusta-demo.myshopify.com/cdn/shop/files/slide-bg-1.jpg?v=1613745446");
+    background-size: cover;
+    background-position: center;
 }
+
 .tagline{
-    font-size: 50px;
+    font-size: 60px;
+}
+.banner p{
+    /* font-size: 13px; */
+    text-align: justify;
+    width: 450px;
+}
+button{
+    padding: 8px 20px;
+    border: none;
 }
 .btn-bg{
     background-color: #F59E0B
@@ -26,13 +40,23 @@
 .about-txt{
     color: #1E3A8A;
 }
-#carouselExampleAutoplaying {
-    height: 500px; /* Adjust this height to match your content */
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: gray;
 }
 
+.banner-content img{
+    height: 500px;
+    width: auto;
+}
 
 @media (max-width: 575px) {
     .banner-content{
         flex-direction: column;
+    }
+    .banner-content img{
+        height: auto;
+    }
+    .banner p{
+        width: auto;
     }
   }
