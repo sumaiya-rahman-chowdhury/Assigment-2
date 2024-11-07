@@ -17,6 +17,11 @@
     text-align: justify;
     width: 450px;
 }
+.about p{
+    /* font-size: 13px; */
+    text-align: justify;
+    width: 450px;
+}
 button{
     padding: 8px 20px;
     border: none;
@@ -48,6 +53,15 @@ button{
     height: 500px;
     width: auto;
 }
+.welcome-shopsphere{
+    width: 400px;
+    padding: 10px;
+    transform: translate(-50%, -72%) rotate(90deg); /* Moves element to center and rotates it */
+    top: 50%;  /* Moves element to 50% down from the top */
+    left: 5px; /* Moves element 50% right from the left */
+    position: absolute; /* Absolutely positioned */
+
+}
 
 @media (max-width: 575px) {
     .banner-content{
@@ -56,7 +70,27 @@ button{
     .banner-content img{
         height: auto;
     }
-    .banner p{
+    .banner p,.about p{
+        font-size: 13px;
+        padding: 10px;
         width: auto;
+    }
+    .about-content{
+        flex-direction: column;
+    }
+    .about-content-lines{
+        padding: 10px;
+    }
+    .about img{
+        padding: 10px;
+       width: 100%;
+    }
+    .welcome-shopsphere{   
+        width: auto;    
+        padding: 10px;
+        left: 35px;
+    }
+    .welcome-shopsphere h4{
+        font-size:14px;
     }
   }
