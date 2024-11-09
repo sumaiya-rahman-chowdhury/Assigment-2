@@ -62,10 +62,11 @@ button{
     position: absolute; /* Absolutely positioned */
 
 }
-.content,.about{
+.content,.about,.contact{
     width: 90%;
     margin:  auto;
 }
+
 .content-card p{
     font-size: 12px;
     color: gray;
@@ -83,12 +84,12 @@ button{
     /* width: 250px !important; */
 }
 .content-card img{
-    height: 340px;
+    height: 190px;
     width: 100%;
     
 }
 .card-img-box{
-    height: 350px;
+    height: 200px;
     width: 100%;
 
 }
@@ -106,7 +107,7 @@ button{
     overflow: hidden;
 }
 .card-img-box:hover .card-overlay{
-    height: 340px;
+    height: 190px;
     transition: height 0.6s ease-in-out;
 }
 
@@ -124,8 +125,45 @@ button{
     background-color: orange;
     transition: background-color 0.6s ease-in-out;
 }
+.contact-us{
+    background-image: 
+    url("https://fusta-demo.myshopify.com/cdn/shop/files/breadcrumb-bg.jpg?v=1537511178");
+    background-color: rgba(0, 0, 0, 0.822);
+    background-blend-mode: overlay;
+}
+.contact>form,.contact>div{
+    flex: 1;
+    color: white;
+}
+.contact-description{
+    font-size: 14px;
+    text-align: justify;
+}
+.contact{
+    width: 80%;
+}
+
+
+
+
+
+
 
 @media (max-width: 575px) {
+   
+    .content-card img{
+        height: 390px;
+        
+    }
+    .card-img-box{
+        height: 400px;
+        width: 100%;
+    
+    }
+    .card-img-box:hover .card-overlay{
+        height: 390px;
+        transition: height 0.6s ease-in-out;
+    }
     .banner-content{
         flex-direction: column;
     }
@@ -158,5 +196,9 @@ button{
     .content-card{
         width: 400px !important;
     }
-   
+    .contact{
+        width: 100%;
+    }
+    
+  
   }
