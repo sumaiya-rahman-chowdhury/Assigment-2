@@ -85,12 +85,12 @@ button{
 }
 .content-card img{
     height: 190px;
-    max-width: 100%;
+    width: 100%;
     
 }
 .card-img-box{
     height: 200px;
-    max-width: 100%;
+    width: 100%;
 
 }
 .card-overlay{
@@ -129,7 +129,7 @@ button{
     max-width: 100%;
     background-image: 
     url("https://fusta-demo.myshopify.com/cdn/shop/files/breadcrumb-bg.jpg?v=1537511178");
-    background-color: rgba(0, 0, 0, 0.822);
+    background-color: rgba(0, 0, 0, 0.678);
     background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
