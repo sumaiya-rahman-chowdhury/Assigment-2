@@ -1,6 +1,10 @@
 .font-family{
      font-family: "Poppins", serif;;
 }
+nav{
+    background: #f0f0f0;
+
+}
 .banner {
     padding-top: 100px;
     height: auto;
