@@ -178,8 +178,9 @@ button{
 
 
 .footer{
+    background: #f0f0f0;
     max-width: 100%;
-    min-height: 400px;
+    height: 400px;
 }
 ul li{
     list-style: none;
