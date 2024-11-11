@@ -62,7 +62,7 @@ button{
     position: absolute; /* Absolutely positioned */
 
 }
-.content,.about{
+.content,.about,.features-product{
     width: 90%;
     margin:  auto;
 }
@@ -146,6 +146,42 @@ button{
 .contact{
    width: 80%;
 }
+.features-product-card-box{
+    max-width: 400px !important;
+    height: 500px;
+    /* border: 1px solid black; */
+    max-width: 500px;
+}
+.features-product-card{
+    /* background: #000; */
+}
+.features-product-card-overlay{
+    width: 100%;
+    background-color: #00000077;
+    height: 350px;
+    z-index: 10;
+    top: 0;
+}
+.features-product-card img{
+    height: 350px;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    max-width: 100%;
+    height: 400px;
+}
+
 
 
 
